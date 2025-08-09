@@ -1,0 +1,81 @@
+/* Global Styling */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-image: url("https://img.freepik.com/free-psd/3d-rendering-questions-background_23-2151455632.jpg");
+  background-size: contain;
+  padding: 30px;
+  background-blend-mode:darken;
+}
+
+/* Main Quiz Container */
+.quiz-container {
+  max-width: 800px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.205);
+  padding: 25px 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.15);
+  animation: bubble 2s ease-in-out infinite;
+}
+
+
+/* Each Question */
+.question {
+  background: #f9f9ff52;
+  padding: 15px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: transform 0.3s ease;
+}
+.question:hover {
+  transform: translateY(-3px);
+}
+
+/* Question Text */
+.question h3 {
+  margin-bottom: 12px;
+  font-size: 18px;
+  color: #333;
+  animation: fadeIn 1s 0.5s ease-in-out;
+}
+
+/* Options */
+.options label {
+  display: block;
+  padding: 10px 15px;
+  margin: 6px 0;
+  background: rgba(255, 255, 255, 0.404);
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+/* Hover Effect */
+.options label:hover {
+  background: #f1f1f1;
+  border-color: #ccc;
+}
+
+/* Correct Answer Hover Highlight */
+.correct:hover {
+  background: #d4edda !important;
+  border-color: #28a745 !important;
+  color: #155724;
+  font-weight: bold;
+  box-shadow: 0 0 10px rgba(40,167,69,0.2);
+  transition: all;
+  transition-duration: 100ms;
+}
+
+/* Animation */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes bubble{
+    0% { transform: translateY(0);}
+    50% { transform: translateY(-10px);}
+    100% { transform: translateY(0);}
+}
