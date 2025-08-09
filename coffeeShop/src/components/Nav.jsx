@@ -8,7 +8,7 @@ const Nav = () => {
         <li className='hover:text-white'><a href="#services">Services</a></li>
         <li className='hover:text-white'><a href="#about">About</a></li>
       </ul>
-        <button className='text-white border px-5 py-1 rounded cursor-pointer hover:bg-amber-950' href="#order">LogIn</button>
+        <button className='text-white border px-5 py-1 rounded cursor-pointer hover:bg-amber-950' href="#order">Login</button>
     </nav>
   )
 }
