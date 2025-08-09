@@ -48,63 +48,36 @@ Users can **add** and **remove** tasks, with state management handled by Redux T
 cd todo-app
 npm install
 npm start
-3️⃣ Coffee Shop Landing Page (React + Tailwind CSS + AOS)
-Description:
-A modern Coffee Shop Landing Page built with React and styled using Tailwind CSS, featuring smooth scroll-based animations powered by AOS.
+```
+# ☕ Coffee Shop Landing Page (React + Tailwind CSS + AOS)
+
+## 📖 Description
+A modern Coffee Shop Landing Page built with **React** and styled using **Tailwind CSS**, featuring smooth scroll-based animations powered by **AOS**.  
 This landing page is designed to showcase coffee products, promote offers, and create an elegant, welcoming atmosphere.
 
-Technologies Used:
+---
 
-React
+## 🛠 Technologies Used
+- **React**
+- **Tailwind CSS**
+- **AOS (Animate On Scroll)**
 
-Tailwind CSS
+---
 
-AOS (Animate On Scroll)
+## ✨ Features
+- 📱 **Fully responsive design** for mobile, tablet, and desktop
+- 🎨 **Modern UI** with clean typography and warm coffee-themed color palette
+- 🎞️ **Smooth scroll animations** using AOS
+- ☕ Sections for coffee products, about, testimonials, and contact
+- ⚡ **Optimized for fast loading**
 
-Features:
+---
 
-📱 Fully responsive design for mobile, tablet, and desktop
+## 🚀 How to Run
 
-🎨 Modern UI with clean typography and warm coffee-themed color palette
-
-🎞️ Smooth scroll animations using AOS
-
-☕ Sections for coffee products, about, testimonials, and contact
-
-⚡ Optimized for fast loading
-
-How to Run:
-
-bash
-Copy
-Edit
+```bash
 cd coffee-shop
 npm install
 npm start
-The page will be available at: http://localhost:3000
 
-📁 Repository Structure
-graphql
-Copy
-Edit
-code_sentinel_tasks/
-│
-├── quiz-app/            # Basic HTML & CSS quiz
-├── todo-app/            # React + Redux Toolkit To-Do list
-└── coffee-shop/         # Coffee shop landing page with animations
-🛠️ Skills Demonstrated
-HTML5 & CSS3 for structure and styling
 
-Responsive design principles
-
-React.js component-based architecture
-
-Redux Toolkit for state management
-
-Tailwind CSS for rapid UI styling
-
-AOS animations for enhanced user experience
-
-📜 License
-This repository is for learning and internship purposes.
-You are free to explore and use the code for educational purposes.
