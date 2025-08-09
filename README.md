@@ -1,28 +1,50 @@
-# Code Sentinel Internship Tasks
+# Code Sentinel Internship Projects
 
-## Overview
-A brief explanation of the project purpose and goals.
+This repository contains the tasks and projects I completed during my internship at **Code Sentinel**.  
+The projects demonstrate my skills in **HTML, CSS, React, Redux Toolkit, Tailwind CSS**, and animation libraries like **AOS**.
 
-## Table of Contents
-- [Technologies](#technologies)
-- [Installation](#installation)
-- [Usage](#usage)
-- [Features](#features)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
+---
 
-## Technologies
-List your stack here. For example:
+## 📂 Projects Overview
+
+### 1. Quiz App (HTML & CSS)
+**Description:**  
+A simple, responsive multiple-choice quiz built with basic **HTML** and **CSS**.  
+It focuses on clean UI design and layout without JavaScript interactivity.
+
+**Technologies Used:**
+- HTML5
+- CSS3
+
+**Features:**
+- Responsive design for desktop and mobile
+- Styled multiple-choice questions
+- Highlighted correct/incorrect answers on hover (CSS only)
+
+**How to Run:**
+1. Navigate to the `quiz-app` folder.
+2. Open `index.html` in your browser.
+
+---
+
+### 2. To-Do App (React + Redux Toolkit + Tailwind CSS)
+**Description:**  
+A fully functional **To-Do List** application built with **React**, **Redux Toolkit**, and **Tailwind CSS** for styling.  
+Users can **add** and **remove** tasks, with state management handled by Redux Toolkit.
+
+**Technologies Used:**
 - React
-- JavaScript (ES6+)
-- HTML5 & CSS3
-- Other libraries, if any
+- Redux Toolkit
+- Tailwind CSS
 
-## Installation
-Step-by-step guide:
+**Features:**
+- Add new to-dos
+- Remove existing to-dos
+- Global state management with Redux Toolkit
+- Minimal and responsive UI with Tailwind CSS
+
+**How to Run:**
 ```bash
-git clone https://github.com/your-username/code_sentinel_tasks
-cd code_sentinel_tasks
+cd todo-app
 npm install
 npm start
